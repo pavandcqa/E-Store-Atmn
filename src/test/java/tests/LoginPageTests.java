@@ -24,4 +24,9 @@ public class LoginPageTests extends TestBase{
 		lp.clickSignIn();
 	}
 
+	@Test
+	public void verifyLoginWithValidCredentials()
+	{
+		System.out.println("Steps for validation...");
+	}
 }
